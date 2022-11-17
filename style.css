@@ -57,24 +57,24 @@ body {
 
 h1 {
   color: var(--secondary);
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-family: var(--font3);
 }
 
 h2 {
   color: var(--secondary);
-  font-size: 4.2rem;
+  font-size: 4rem;
   font-family: var(--font3);
 }
 
 h3 {
   color: var(--secondary);
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-family: var(--font3);
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: var(--secondary-contrast);
   font-family: var(--font1);
 }
@@ -151,7 +151,7 @@ button {
 .home {
   display: flex;
   justify-content: space-between;
-  padding: 1% 8%;
+  padding: 1% 5%;
   margin-bottom: 100px;
 }
 
@@ -159,7 +159,7 @@ button {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   gap: 50px;
 }
 
@@ -406,7 +406,7 @@ div.about-phone > a > img {
   background-color: rgba(0, 0, 0, 0.459);
   margin-bottom: 150px;
   position: relative;
-  padding: 1% 8%;
+  padding: 1% 5%;
   width: 100%;
   height: fit-content;
 }
@@ -451,7 +451,7 @@ div.about-phone > a > img {
 }
 
 .service-info {
-	width: 33%;
+	width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -461,18 +461,24 @@ div.about-phone > a > img {
 	flex-grow: 0;
 }
 
+.service-images {
+	display: flex;
+	width: 60%;
+	gap: 2%;
+}
+
 .service-images-box {
-	width: 33%;
+	width: 99%;
 	background: var(--accent);
-	flex-grow: 0;
 	padding-bottom: 5px;
+	height: 500px;
 }
 
 .service-images-box-2 {
-	width: 33%;
+	width: 99%;
 	background: var(--accent);
-	flex-grow: 0;
 	padding-bottom: 5px;
+	height: 500px;
 }
 
 .service-info h2 {
@@ -490,11 +496,12 @@ div.about-phone > a > img {
 	flex-direction: column;
 	align-items: center;
 	background: var(--secondary);
+	height: 100%;
 }
 
 .slideshow-container {
 	width: 100%;
-	height: 450px;
+	height: 100%;
 	display: flex;
 	overflow-x: scroll;
 }

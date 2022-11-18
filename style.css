@@ -85,6 +85,7 @@ a {
   transition: 0.5s ease-in-out;
   font-family: var(--font1);
   color: var(--secondary);
+	display: block;
 }
 
 button {
@@ -228,7 +229,8 @@ button {
 .about-heading > h2 > span,
 .service-heading > span,
 .project-heading > span,
-.ceo-heading > span {
+.ceo-heading > span,
+.footer-heading > span {
   position: relative;
 }
 
@@ -236,7 +238,8 @@ button {
 .about-heading > h2 > span > .purple-bg,
 .service-heading > span > .purple-bg,
 .project-heading > span > .purple-bg,
-.ceo-heading > span > .purple-bg {
+.ceo-heading > span > .purple-bg,
+.footer-heading > span > .purple-bg{
   background: var(--accent);
   width: 85%;
   padding: 10px;
@@ -777,25 +780,85 @@ div.about-phone > a > img {
 	background: var(--secondary-contrast);
 }
 
-.footer-title {
-  margin-bottom: 50px;
-  display: flex;
-  gap: 15px;
-  padding: 0px 35px 35px 0px;
-  position: relative;
+.footer-info {
+	display: flex;
+	margin-bottom: 100px;
 }
 
-.footer-title > h2 {
-  align-self: flex-end;
-  line-height: 0.7;
-  color: var(--secondary-contrast);
+.footer-call-and-gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.footer-title > div {
-  align-self: flex-end;
-  color: var(--secondary-contrast);
-  width: 100px;
-  font-size: 2rem;
+.footer-contact-and-gallery {
+	display: flex;
+	gap: 10px;
+}
+
+.footer-contact-and-gallery > a {
+	background-color: var(--secondary);
+	color: var(--primary);
+	padding: 20px 40px;
+	border: 2px solid transparent;
+	transition: 0.85s ease-in-out;
+}
+
+.footer-contact-and-gallery > a:hover {
+	background-color: transparent;
+	border: 2px solid var(--secondary);
+}
+
+hr {
+	margin: 0 5% 0;
+}
+
+.footer-company-display {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-logo {
+	margin-bottom: 50px;
+}
+
+.footer-links {
+	display: flex;
+	gap: 2%;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.footer-media {
+	display: flex;
+	gap: 2%;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.footer-media > div {
+  width: 25px;
+  height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-media > div > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-media > div > a > img {
+  width: 100%;
 }
 /*media design*/
 .media {

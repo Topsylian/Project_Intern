@@ -81,7 +81,6 @@ p {
 
 a {
   text-decoration: none;
-  font-size: var(--medium-font);
   transition: 0.5s ease-in-out;
   font-family: var(--font1);
   color: var(--secondary);
@@ -90,7 +89,7 @@ a {
 
 button {
   font-size: var(--medium-font);
-  padding: 1rem;
+  padding: .8rem;
   background-color: var(--secondary);
   color: var(--primary);
   outline: none;
@@ -220,6 +219,7 @@ button {
   padding: 1rem 1.5rem;
   color: var(--primary);
   border: 2px solid transparent;
+	font-size: 1.1rem;
 }
 
 .home-info > a:hover,

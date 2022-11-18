@@ -111,6 +111,10 @@ button {
   width: 40%;
 }
 
+.logo img {
+	height: 25px;
+}
+
 .logo-link {
   font-size: var(--P-desktop);
   color: var(--secondary);
@@ -382,8 +386,8 @@ div.about-phone > a > img {
 
 .up {
   background: var(--accent);
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   padding: 5px;
   border-radius: 5px;
   position: fixed;
@@ -518,6 +522,7 @@ div.about-phone > a > img {
   background-color: var(--secondary);
   color: var(--primary);
   text-align: center;
+	padding: 1rem;
 }
 
 ::-webkit-scrollbar {

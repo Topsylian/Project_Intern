@@ -786,9 +786,13 @@ div.about-phone > a > img {
 	margin-bottom: 100px;
 }
 
-.footer-heading {
+.footer-head-box {
 	width: 30%;
 	margin-top: 25px;
+}
+
+.footer-head-box > h1 {
+	width:500px;
 }
 
 .footer-call-and-gallery {

@@ -776,7 +776,7 @@ div.about-phone > a > img {
 /* Footer design*/
 .footer {
   margin-bottom: 0;
-  padding: 0;
+  padding: 2% 5%;
 	background: var(--secondary-contrast);
 }
 

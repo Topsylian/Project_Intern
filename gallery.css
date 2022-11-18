@@ -62,8 +62,13 @@ body {
   height: 100%;
 }
 
-.gallery-container h1 {
+.gallery-container > h1 {
   text-align: center;
+	position: relative;
+}
+
+.gallery-container > h1 > a {
+	font-size: 1rem;
 }
 
 .gallery-image-background {
@@ -254,7 +259,7 @@ a {
 	border: 2px solid transparent;
 	transition: 0.85s ease-in-out;
 	position: absolute;
-	top: 50vh;
+	top: 100%;
 	right: 5%;
 }
 

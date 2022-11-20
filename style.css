@@ -349,10 +349,11 @@ button {
   justify-content: start;
   padding: 25px 0 0 0;
   gap: 40px;
+	height: 500px;
 }
 
 .about-info h2 {
-  width: 90%;
+  width: 80%;
 }
 
 .about-info p {

@@ -1812,9 +1812,10 @@ div.list-media > div > a > img {
 
   .client-details {
     display: flex;
+		flex-direction: column;
 		justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 0px;
 		width: 100%;
   }
 

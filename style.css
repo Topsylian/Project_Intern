@@ -1406,7 +1406,7 @@ div.list-media > div > a > img {
   }
 
   .logo > img {
-    height: 15px;
+    height: 20px;
   }
 
   div.nav-links {
@@ -1416,6 +1416,7 @@ div.list-media > div > a > img {
   /*Home/Hero section design*/
   .home {
     display: flex;
+		flex-direction: column-reverse;
     justify-content: space-between;
     padding: 1% 5%;
     margin-bottom: 100px;
@@ -1423,15 +1424,16 @@ div.list-media > div > a > img {
   }
 
   .home-info {
-    width: 49%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+		justify-content: space-between;
+		height: 200px;
     gap: 8%;
   }
 
   .home-image {
-    width: 49%;
+    width: 100%;
   }
 
   .home-image > div.project-img {
@@ -1440,7 +1442,6 @@ div.list-media > div > a > img {
     display: flex;
     justify-content: end;
     align-items: center;
-    background: red;
     position: relative;
   }
 
@@ -1460,7 +1461,7 @@ div.list-media > div > a > img {
   }
 
   .home-image > .project-img > .project-img-box .project-img-2 {
-    width: 95%;
+    width: 96%;
     height: 200px;
     padding: 10px;
     position: absolute;
@@ -1468,26 +1469,26 @@ div.list-media > div > a > img {
   }
 
   .home-image > .project-img > .project-img-box .project-img-3 {
-    width: 100%;
+    width: 90%;
     height: 250px;
     position: absolute;
     z-index: 3;
   }
 
   .home-heading > h1 {
-    width: 100%;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: 2rem;
   }
 
   .home-para > p {
     font-size: 0.75rem;
-    width: 100%;
+    width: 70%;
     line-height: 1.7;
   }
 
   .home-info > a,
   .service-info > a {
-    width: 50%;
+    width: 40%;
     background-color: var(--secondary);
     text-align: center;
     padding: 0.5rem 0.5rem;
@@ -1814,85 +1815,85 @@ div.list-media > div > a > img {
     gap: 15px;
   }
 
-	  /*Footer section*/
-		.footer {
-			margin-bottom: 0;
-			padding: 2% 3%;
-			background: var(--secondary-contrast);
-		}
-	
-		.footer-info {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			gap: 0%;
-			margin-bottom: 50px;
-		}
-	
-		.footer-head-box {
-			text-align: center;
-			width: 100%;
-			margin-top: 25px;
-			padding: 1%;
-			display: flex;
-			justify-content: center;
-			margin-bottom: 25px;
-		}
-	
-		.footer-head-box > h1 {
-			width: 70%;
-			font-size: 2.5rem;
-		}
-	
-		.footer-call-and-gallery {
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
-			text-align: center;
-			padding: 2% 0%;
-		}
+  /*Footer section*/
+  .footer {
+    margin-bottom: 0;
+    padding: 2% 3%;
+    background: var(--secondary-contrast);
+  }
 
-		.footer-contact-and-gallery {
-			display: flex;
-			flex-direction: column;
-		}
-	
-		.footer-call-and-gallery > p {
-			width: 80%;
-			margin-bottom: 25px;
-		}
-	
-		hr {
-			margin: 0 0% 0;
-		}
-	
-		.footer-company-display {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-	
-		.footer-logo {
-			margin-top: 25px;
-			margin-bottom: 25px;
-		}
-	
-		.footer-links > a {
-			color: var(--secondary);
-			transition: 0.5s ease-in-out;
-		}
-	
-		.footer-links > a:hover {
-			color: var(--primary);
-		}
-	
-		.footer-media {
-			gap: 5%;
-		}
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    margin-bottom: 50px;
+  }
+
+  .footer-head-box {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .footer-head-box > h1 {
+    width: 70%;
+    font-size: 2.5rem;
+  }
+
+  .footer-call-and-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2% 0%;
+  }
+
+  .footer-contact-and-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-call-and-gallery > p {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  hr {
+    margin: 0 0% 0;
+  }
+
+  .footer-company-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .footer-links > a {
+    color: var(--secondary);
+    transition: 0.5s ease-in-out;
+  }
+
+  .footer-links > a:hover {
+    color: var(--primary);
+  }
+
+  .footer-media {
+    gap: 5%;
+  }
 }
 
 @media (min-width: 480px) {

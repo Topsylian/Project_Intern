@@ -721,6 +721,7 @@ div.about-links > div > a > img {
 .client-details {
   display: flex;
   align-items: center;
+	justify-content: center;
   gap: 15px;
 }
 
@@ -1815,10 +1816,9 @@ div.list-media > div > a > img {
     align-items: center;
     gap: 15px;
 		width: 100%;
-		background-color: rgb(207, 192, 192);
   }
 
-	.client-details > p {
+	.client-details  p {
 		vertical-align: bottom;
 	}
 

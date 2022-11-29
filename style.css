@@ -1482,7 +1482,7 @@ div.list-media > div > a > img {
 
   .home-para > p {
     font-size: 1rem;
-    width: 70%;
+    width: 97%;
     line-height: 1.7;
   }
 
@@ -1811,8 +1811,10 @@ div.list-media > div > a > img {
 
   .client-details {
     display: flex;
+		justify-content: center;
     align-items: center;
     gap: 15px;
+		background-color: rgb(207, 192, 192);
   }
 
   /*Footer section*/

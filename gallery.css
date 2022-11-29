@@ -530,7 +530,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 440px) {
   .gallery-interior,
   .gallery-exterior {
     margin-bottom: 100px;

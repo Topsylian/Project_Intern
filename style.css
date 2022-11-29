@@ -1895,6 +1895,17 @@ div.list-media > div > a > img {
   }
 }
 
+@media (max-width: 340px) {
+  .home-info h1 {
+		font-size: 2rem;
+		width: 90%;
+	}
+
+	.home-info a {
+		width: 50%;
+	}
+}
+
 @media (min-width: 480px) {
   html {
     font-size: 13px;

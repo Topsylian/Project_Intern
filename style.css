@@ -107,7 +107,7 @@ button {
 .logo {
   display: flex;
   align-items: center;
-	justify-content: center;
+  justify-content: left;
   width: 40%;
 }
 
@@ -186,7 +186,31 @@ button {
   line-height: 1.7;
 }
 
-.home-info > a,
+.hero-btn {
+  display: flex;
+  gap: 5%;
+}
+
+.home-info > .hero-btn > a.hero-call {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.home-info > .hero-btn > a.hero-call:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.hero-call, .home-info a {
+  background-color: var(--secondary);
+  text-align: center;
+  color: var(--primary);
+  width: 30%;
+  padding: 1rem;
+  border: 2px solid transparent;
+  font-size: 1.1rem;
+}
+
 .service-info > a {
   background-color: var(--secondary);
   text-align: center;
@@ -196,7 +220,7 @@ button {
   font-size: 1.1rem;
 }
 
-.home-info > a:hover,
+.home-info  a:hover,
 .service-info > a:hover {
   background-color: var(--primary);
   color: var(--secondary);
@@ -722,7 +746,7 @@ div.about-links > div > a > img {
 .client-details {
   display: flex;
   align-items: center;
-	justify-content: center;
+  justify-content: center;
   gap: 15px;
 }
 
@@ -930,7 +954,26 @@ div.list-media > div > a > img {
     font-size: 1rem;
   }
 
-  .home-info > a,
+  .hero-btn {
+    display: flex;
+    gap: 5%;
+  }
+
+  .home-info > .hero-btn > div.hero-call {
+    background-color: var(--primary);
+  }
+  
+  .hero-call, .home-info a {
+    background-color: var(--secondary);
+    text-align: center;
+    color: var(--primary);
+    width: 45%;
+    padding: 1rem;
+    border: 2px solid transparent;
+    font-size: 1.1rem;
+  }
+
+  .home-info a,
   .service-info > a {
     padding: 1rem 1rem;
     font-size: 1rem;
@@ -1303,7 +1346,7 @@ div.list-media > div > a > img {
 
   .service-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     width: 100%;
     gap: 10px;
   }
@@ -1418,7 +1461,7 @@ div.list-media > div > a > img {
   /*Home/Hero section design*/
   .home {
     display: flex;
-		flex-direction: column-reverse;
+    flex-direction: column-reverse;
     justify-content: space-between;
     padding: 1% 5%;
     margin-bottom: 100px;
@@ -1429,8 +1472,8 @@ div.list-media > div > a > img {
     width: 100%;
     display: flex;
     flex-direction: column;
-		justify-content: space-between;
-		height: fit-content;
+    justify-content: space-between;
+    height: fit-content;
     gap: 25px;
   }
 
@@ -1488,8 +1531,7 @@ div.list-media > div > a > img {
     line-height: 1.7;
   }
 
-  .home-info > a,
-  .service-info > a {
+  .home-info > a, .service-info > a {
     width: 40%;
     background-color: var(--secondary);
     text-align: center;
@@ -1613,9 +1655,9 @@ div.list-media > div > a > img {
     line-height: 1.7;
   }
 
-	.about-contact {
-		gap: 10px
-	}
+  .about-contact {
+    gap: 10px;
+  }
 
   /*Service design*/
   .service {
@@ -1660,9 +1702,9 @@ div.list-media > div > a > img {
     color: var(--primary);
   }
 
-	.service-info a {
-		font-size: 1rem;
-	}
+  .service-info a {
+    font-size: 1rem;
+  }
 
   /*Project design*/
   .project {
@@ -1821,16 +1863,16 @@ div.list-media > div > a > img {
 
   .client-details {
     display: flex;
-		flex-direction: column;
-		justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 0px;
-		width: 100%;
+    width: 100%;
   }
 
-	.client-details  p {
-		vertical-align: bottom;
-	}
+  .client-details p {
+    vertical-align: bottom;
+  }
 
   /*Footer section*/
   .footer {
@@ -1897,13 +1939,27 @@ div.list-media > div > a > img {
 
 @media (max-width: 340px) {
   .home-info h1 {
-		font-size: 2rem;
-		width: 90%;
-	}
+    font-size: 2rem;
+    width: 90%;
+  }
 
-	.home-info a {
-		width: 50%;
-	}
+  .home-info a {
+    width: 50%;
+  }
+
+  .about-info h2 {
+    width: 100%;
+  }
+
+  .about-info .about-para {
+    width: 100%;
+    line-height: 1.7;
+    padding: 0% 5%;
+  }
+
+  .about-contact {
+    gap: 10px;
+  }
 }
 
 @media (min-width: 480px) {

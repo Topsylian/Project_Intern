@@ -1996,7 +1996,6 @@ div.list-media > div > a > img {
   .hero-btn {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   .hero-btn > a {
